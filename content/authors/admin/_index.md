@@ -48,6 +48,7 @@ interests:
 education:
   - area: PhD Natural Sciences
     institution: Karlsruhe Institute of Technology
+    date_start:''
     date_end: 07/2022
     summary: |
       Thesis on 
@@ -56,10 +57,12 @@ education:
       url: 'https://example.com'
   - area: MSc Interdisciplinary Sciences
     institution: Universidad Autonoma de San Luis Potosi
+    date_start:''
     date_end: 02/2019
 
   - area: BSc Biophysics
     institution: Universidad Autonoma de San Luis Potosi
+    date_start:''
     date_end: 02/2017
 
 work:
