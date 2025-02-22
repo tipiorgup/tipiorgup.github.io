@@ -157,3 +157,5 @@ awards:
 
 Biophysicist with expertise in multi-scale molecular modeling, machine learning, and protein systems.
 Experienced in bridging theoretical and experimental approaches through the development of user-friendly computational tools and databases.
+
+---
