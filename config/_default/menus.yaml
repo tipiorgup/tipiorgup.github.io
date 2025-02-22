@@ -10,7 +10,7 @@ main:
   - name: Papers
     url: /#papers
     weight: 11
-  - name: Talks
+  - name: Talks and posters
     url: /#talks
     weight: 12
   - name: News
@@ -22,6 +22,6 @@ main:
   - name: Projects
     url: projects/
     weight: 30
-  - name: Teaching
+  - name: Tutorials
     url: teaching/
     weight: 40
