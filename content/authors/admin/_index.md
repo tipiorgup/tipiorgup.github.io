@@ -73,8 +73,8 @@ work:
     company_name: Max Plank Institute for Polymer Research
     company_url: ''
     company_logo: ''
-    date_start: 01/03/2024
-    date_end: 28/02/2025
+    date_start: 2024-03-01
+    date_end: 2025-02-28
     summary: |2-
       Responsibilities include:
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
