@@ -54,7 +54,7 @@ education:
       Thesis on 
     button:
       text: 'Read Thesis'
-      url: 'https://example.com'
+      url: 'https://publikationen.bibliothek.kit.edu/1000150422'
   - area: MSc Interdisciplinary Sciences
     institution: Universidad Autonoma de San Luis Potosi
     date_start: 2017-02-01
@@ -94,23 +94,19 @@ skills:
         description: ''
         percent: 100
         icon: chart-bar
-      - name: SQL
+      - name: Bash script 
         description: ''
-        percent: 40
+        percent: 60
         icon: circle-stack
   - name: Hobbies
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
-      - name: Hiking
+      - name: World building, writing 
         description: ''
         percent: 60
         icon: person-simple-walk
-      - name: Cats
-        description: ''
-        percent: 100
-        icon: cat
-      - name: Photography
+      - name: Painting 
         description: ''
         percent: 80
         icon: camera
@@ -125,6 +121,8 @@ languages:
   - name: Portuguese
     percent: 50
   - name: German
+    percent: 25
+  - Name: Croatian
     percent: 25
 
 # Awards.
