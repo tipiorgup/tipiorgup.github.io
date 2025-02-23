@@ -1,6 +1,6 @@
 ---
-title: Learn Python
-summary: Easily learn Python in 10 minutes!
+title: IDP simulations
+summary: Easily simulate IDPs using CALVADOS2 model.
 date: 2023-10-24
 type: docs
 math: false
