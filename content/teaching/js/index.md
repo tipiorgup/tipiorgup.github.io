@@ -1,6 +1,6 @@
 ---
 title: DFTB-Neural-Net
-summary: This workflow developed in the SimStack framework enables the correction of DFTB potential energy surfaces into ab-initio methods using the $\Delta$-learning neural network. 
+summary: This workflow developed in the SimStack framework enables the correction of DFTB potential energy surfaces into ab-initio methods using the Delta-learning neural network. 
 date: 2023-10-24
 type: docs
 math: false
@@ -9,10 +9,9 @@ tags:
 image:
   caption: 'Embed rich media such as videos and LaTeX math'
 ---
-# DFTB-Neural-Net
 
 ## Description
-This workflow developed in the SimStack framework enables the correction of DFTB potential energy surfaces into ab-initio methods using the $\Delta$-learning neural network. This correction is implemented into the **DFTB+** code for further use on QM/MM simulations. The workflow enables users with no programming or machine learning background to take advantage of this correction and expand it into new systems.
+This workflow developed in the [SimStack](https://www.simstack.de/) framework enables the correction of DFTB potential energy surfaces into ab-initio methods using the $\Delta$-learning neural network. This correction is implemented into the **DFTB+** code for further use on QM/MM simulations. The workflow enables users with no programming or machine learning background to take advantage of this correction and expand it into new systems.
 
 In the folder WaNos there are several different WaNos: **DFT-Turbomole**, **DFTBplus**, **Mult-It**, **NN-Delta-ML**, **ORCA**, **Super-XYZ**, **Table-Generator** and **UnpackMol**, used to build the workflow. Below we describe each one and the main parameter exposed.
 
@@ -39,6 +38,9 @@ In the folder WaNos there are several different WaNos: **DFT-Turbomole**, **DFTB
 Here you will find the steps to install **DFTB+** code and python dependencies necessary to run the workflow. Of course, we assume that you already installed the **DFT** code. You can choose any option available in the [list of quantum chemistry codes.](https://en.wikipedia.org/wiki/List_of_quantum_chemistry_and_solid-state_physics_software.) In this case, we use **ORCA** or **Turbomole**.  
 
 ### 1.1 Conda Environment and Python dependencies
+
+Get the [repo](https://github.com/KIT-Workflows/DFTB-Neural-Net/blob/main/README.md?plain=1) 
+
 Install conda environment, the following packages would be needed:
 
 ```
