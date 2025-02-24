@@ -1,140 +1,92 @@
 ---
-title: Learn JavaScript
-summary: Easily learn JavaScript in 10 minutes!
+title: DFTB-Neural-Net
+summary: This workflow developed in the SimStack framework enables the correction of DFTB potential energy surfaces into ab-initio methods using the $\Delta$-learning neural network. 
 date: 2023-10-24
 type: docs
 math: false
 tags:
-  - JavaScript
+  - Workflows
 image:
   caption: 'Embed rich media such as videos and LaTeX math'
 ---
+# DFTB-Neural-Net
 
-[Hugo Blox Builder](https://hugoblox.com) is designed to give technical content creators a seamless experience. You can focus on the content and the Hugo Blox Builder which this template is built upon handles the rest.
+## Description
+This workflow developed in the SimStack framework enables the correction of DFTB potential energy surfaces into ab-initio methods using the $\Delta$-learning neural network. This correction is implemented into the **DFTB+** code for further use on QM/MM simulations. The workflow enables users with no programming or machine learning background to take advantage of this correction and expand it into new systems.
 
-**Embed videos, podcasts, code, LaTeX math, and even test students!**
+In the folder WaNos there are several different WaNos: **DFT-Turbomole**, **DFTBplus**, **Mult-It**, **NN-Delta-ML**, **ORCA**, **Super-XYZ**, **Table-Generator** and **UnpackMol**, used to build the workflow. Below we describe each one and the main parameter exposed.
 
-On this page, you'll find some examples of the types of technical content that can be rendered with Hugo Blox.
+## In this workflow, we will be able to:
 
-## Video
+1. Load a set of molecular trial structures in a `.tar` file.
+2. Unpack all molecular structures inside the AdvancedForEach loop control in the Simstack framework.
+3. Compute the reference energy of the system.
+4. Run the DFT calculations using ORCA or Turbomole codes, **ORCA** or **DFT-Turbomole** WaNos.
+5. Run the DFTB calculations using BFTB+ code using **DFTBplus** WaNo. 
+6. Arrange all the total energy values of the system in a table format (Table-Generator).
+7. Append all files from the `.tar` input file in a specific order and shift the total DFT and DFTB energies from the previously computed reference energies.
+8. Compute the $\Delta$ energy to generate the machine learning (ML) model and the learning report.
+9. Apply the ML model to predict the $\Delta E$ for a similar system when stimulated via the DFTB method.
 
-Teach your course by sharing videos with your students. Choose from one of the following approaches:
+## Workflow for $\Delta$-learning neural network
 
-{{< youtube D2vj0WcvH5c >}}
+![](ML-Fig1.png)
 
-**Youtube**:
+**Fig 1** _This workflow aims to create an ML model to correct DFTB method accuracy concerning the DFT level. It is composed of **DFT-Turbomole**, **DFTBplus**, **Mult-It**, **NN-Delta-ML**, **ORCA**, **Super-XYZ**, **Table-Generator** and **UnpackMol**  **WaNos** connected by the AdvancedFor loop control. (a) When the system is far from the equilibrium region, we compute the reference energy for DFT and DFTB levels. (b) In this step, the set of molecular structures in a `.tar` file is loaded, and a high throughput calculation (single shot) is performed for DFT and DFTB theory levels. The workflow automatically creates a machine learning report at the end of ML model generation._ 
 
-    {{</* youtube w7Ft2ymGmfc */>}}
 
-**Bilibili**:
+## 1. Installation and dependencies
+Here you will find the steps to install **DFTB+** code and python dependencies necessary to run the workflow. Of course, we assume that you already installed the **DFT** code. You can choose any option available in the [list of quantum chemistry codes.](https://en.wikipedia.org/wiki/List_of_quantum_chemistry_and_solid-state_physics_software.) In this case, we use **ORCA** or **Turbomole**.  
 
-    {{</* bilibili id="BV1WV4y1r7DF" */>}}
+### 1.1 Conda Environment and Python dependencies
+Install conda environment, the following packages would be needed:
 
-**Video file**
+```
+conda create --name environment_name python=3.6 --file environment.yml
+```
+Install via pip ordered-enum
 
-Videos may be added to a page by either placing them in your `assets/media/` media library or in your [page's folder](https://gohugo.io/content-management/page-bundles/), and then embedding them with the _video_ shortcode:
+```
+pip3 install ordered_enum
+```
+## Installing DFTB+ in int-nano machine
+> :warning: **If you are installing DFTB+ on a different machine**: Be very careful and make the necessary adjustments.
 
-    {{</* video src="my_video.mp4" controls="yes" */>}}
+1. git clone -b machine-learning https://github.com/tomaskubar/dftbplus.git 
+2. cd dftbplus
+3. module load gnu8/8.3.0
+4. module load openblas/0.3.7
+5. module load cmake
+6. mkdir _build 
+7. FC=gfortran CC=gcc cmake -DCMAKE_INSTALL_PREFIX=$HOME/opt/dftb+ -B _build .
+8. cmake --build _build -- -j 
+9. cmake --install _build
 
-## Podcast
-
-You can add a podcast or music to a page by placing the MP3 file in the page's folder or the media library folder and then embedding the audio on your page with the _audio_ shortcode:
-
-    {{</* audio src="ambient-piano.mp3" */>}}
-
-Try it out:
-
-{{< audio src="ambient-piano.mp3" >}}
-
-## Test students
-
-Provide a simple yet fun self-assessment by revealing the solutions to challenges with the `spoiler` shortcode:
-
-```markdown
-{{</* spoiler text="👉 Click to view the solution" */>}}
-You found me!
-{{</* /spoiler */>}}
+```diff 
++ Check if the `dftb+` executable exist in the dftbplus/_build/prog/dftb+/ folder. If so, then everything is okay. 
 ```
 
-renders as
-
-{{< spoiler text="👉 Click to view the solution" >}} You found me 🎉 {{< /spoiler >}}
-
-## Math
-
-Hugo Blox Builder supports a Markdown extension for $\LaTeX$ math. You can enable this feature by toggling the `math` option in your `config/_default/params.yaml` file.
-
-To render _inline_ or _block_ math, wrap your LaTeX math with `{{</* math */>}}$...${{</* /math */>}}` or `{{</* math */>}}$$...$${{</* /math */>}}`, respectively.
-
-{{% callout note %}}
-We wrap the LaTeX math in the Hugo Blox _math_ shortcode to prevent Hugo rendering our math as Markdown.
-{{% /callout %}}
-
-Example **math block**:
-
-```latex
-{{</* math */>}}
-$$
-\gamma_{n} = \frac{ \left | \left (\mathbf x_{n} - \mathbf x_{n-1} \right )^T \left [\nabla F (\mathbf x_{n}) - \nabla F (\mathbf x_{n-1}) \right ] \right |}{\left \|\nabla F(\mathbf{x}_{n}) - \nabla F(\mathbf{x}_{n-1}) \right \|^2}
-$$
-{{</* /math */>}}
+```diff 
++ be cautious with conda env., it must have libgfortran5 if the installation wants to be done inside the conda environment
 ```
+## 2. Inputs and Outputs
+### 2.1 Inputs
+  - Molecular geometry far from the equilibrium region (as shown in **Fig 1 (a)**).
+  - Set of randmized structures around the Potential energy surface (`.tar` file as shown in **Fig 1 (b)**).
+### 2.2 Outputs
+  - Machine learning report 
+  - Pickle files of the machine learning model.
 
-renders as
+In the video **$\Delta$-learning workflow**, we teach how to set up the workflow to run it in SimStack. 
 
-{{< math >}}
-$$\gamma_{n} = \frac{ \left | \left (\mathbf x_{n} - \mathbf x_{n-1} \right )^T \left [\nabla F (\mathbf x_{n}) - \nabla F (\mathbf x_{n-1}) \right ] \right |}{\left \|\nabla F(\mathbf{x}_{n}) - \nabla F(\mathbf{x}_{n-1}) \right \|^2}$$
-{{< /math >}}
+## References
 
-Example **inline math** `{{</* math */>}}$\nabla F(\mathbf{x}_{n})${{</* /math */>}}` renders as {{< math >}}$\nabla F(\mathbf{x}_{n})${{< /math >}}.
-
-Example **multi-line math** using the math linebreak (`\\`):
-
-```latex
-{{</* math */>}}
-$$f(k;p_{0}^{*}) = \begin{cases}p_{0}^{*} & \text{if }k=1, \\
-1-p_{0}^{*} & \text{if }k=0.\end{cases}$$
-{{</* /math */>}}
-```
-
-renders as
-
-{{< math >}}
-
-$$
-f(k;p_{0}^{*}) = \begin{cases}p_{0}^{*} & \text{if }k=1, \\
-1-p_{0}^{*} & \text{if }k=0.\end{cases}
-$$
-
-{{< /math >}}
-
-## Code
-
-Hugo Blox Builder utilises Hugo's Markdown extension for highlighting code syntax. The code theme can be selected in the `config/_default/params.yaml` file.
+1. J. Behler and M. Parrinello, Physical Review Letters 98, 146401 (2007).
+2. J. Zhu, V. Q. Vuong, B. G. Sumpter, and S. Irle, MRS Communications 9, 867 (2019).
+3. R. Ramakrishnan, P. O. Dral, M. Rupp, and O. A. von Lilienfeld, Journal of Chemical Theory and Computation 11, 2087 (2015).
+4. C. R. Rêgo, J. Schaarschmidt, T. Schlöder, M. Penaloza-Amion, S. Bag, T. Neumann, T. Strunk, and W. Wenzel, Frontiers in Materials , 283.
+5. C. L. Gómez-Flores, D. Maag, M. Kansari, V.Q. Vuong, S. Irle, F. Gräter, T. Kubař, and M. Elstner, Journal of Chemical Theory and Computation 18, 1213 (2022).
 
 
-    ```python
-    import pandas as pd
-    data = pd.read_csv("data.csv")
-    data.head()
-    ```
-
-renders as
-
-```python
-import pandas as pd
-data = pd.read_csv("data.csv")
-data.head()
-```
-
-## Inline Images
-
-```go
-{{</* icon name="python" */>}} Python
-```
-
-renders as
-
-{{< icon name="python" >}} Python
 
 ## Did you find this page helpful? Consider sharing it 🙌
