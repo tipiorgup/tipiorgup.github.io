@@ -51,7 +51,7 @@ education:
     date_start: 2019-05-01
     date_end: 2022-07-14
     summary: |
-      Thesis on 
+      Thesis title 'Machine Learning methodology for the study of a disulfide exchange reaction'
     button:
       text: 'Read Thesis'
       url: 'https://publikationen.bibliothek.kit.edu/1000150422'
@@ -60,7 +60,7 @@ education:
     date_start: 2017-02-01
     date_end: 2019-02-01
     summary: |
-      Thesis on 
+      Thesis title 'Caracterización termodinámica del dominio-N de la H+-ATPasa de membrana plasmática de Saccharomyces cerevisiae'
 
   - area: BSc Biophysics
     institution: Universidad Autonoma de San Luis Potosi
@@ -77,9 +77,10 @@ work:
     date_end: 2025-02-28
     summary: |2-
       Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+         -Part of project [SAPs4Tissue](https://www.mpip-mainz.mpg.de/de/weil/projekte/saps4tissue) \textit{Self-assembling bioactive peptides for the biomimetic design of functional cell niches in human tissue models.}"}
+         -Research on self-assembling peptides as intrinsically disordered peptides, investigating their structural dynamics through coarse grained simulations and functional properties.
+         -Implementation of machine learning algorithms for optimizing peptide sequence.
+         -Developed and maintained an internal peptide [database](https://indeepold.streamlit.app/) organizing and analyzing  molecular data to facilitate structure-function relationship studies.
   
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
