@@ -61,13 +61,16 @@ education:
     date_end: 2019-02-01
     summary: |
       Thesis title 'Caracterización termodinámica del dominio-N de la H+-ATPasa de membrana plasmática de Saccharomyces cerevisiae'
+    button:
+      text: 'Read Thesis'
+      url: 'http://repositorioinstitucional.uaslp.mx/xmlui/handle/i/5769'
 
   - area: BSc Biophysics
     institution: Universidad Autonoma de San Luis Potosi
     date_start: 2013-01-01
     date_end: 2017-02-01
     summary: |
-      Thesis on 
+        Thesis title 'Caracterización estructural del dominio-N de la H+-ATPasa de membrana plasmática de Saccharomyces cerevisiae'
 work:
   - position: Postdoc Position
     company_name: Max Plank Institute for Polymer Research
@@ -76,11 +79,7 @@ work:
     date_start: 2024-03-01
     date_end: 2025-02-28
     summary: |2-
-      Responsibilities include:
-         -Part of project [SAPs4Tissue](https://www.mpip-mainz.mpg.de/de/weil/projekte/saps4tissue) \textit{Self-assembling bioactive peptides for the biomimetic design of functional cell niches in human tissue models.}"}
-         -Research on self-assembling peptides as intrinsically disordered peptides, investigating their structural dynamics through coarse grained simulations and functional properties.
-         -Implementation of machine learning algorithms for optimizing peptide sequence.
-         -Developed and maintained an internal peptide [database](https://indeepold.streamlit.app/) organizing and analyzing  molecular data to facilitate structure-function relationship studies.
+      As a contributor to the SAPs4Tissue project. My work focused on investigating the structural dynamics of self-assembling peptides as intrinsically disordered proteins through coarse-grained simulations while characterizing their functional properties. I implemented machine learning algorithms to optimize peptide sequences and developed an internal database that organizes molecular data to facilitate structure-function relationship studies.
   
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
@@ -93,11 +92,11 @@ skills:
         icon: code-bracket
       - name: Data Science
         description: ''
-        percent: 100
+        percent: 80
         icon: chart-bar
       - name: Bash script 
         description: ''
-        percent: 60
+        percent: 80
         icon: circle-stack
   - name: Hobbies
     color: '#eeac02'
@@ -114,7 +113,7 @@ skills:
 
 languages:
   - name: English
-    percent: 100
+    percent: 85
   - name: Spanish
     percent: 100
   - name: French
@@ -131,31 +130,14 @@ languages:
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
-  - title: Neural Networks and Deep Learning
+  - title: TEST
     url: https://www.coursera.org/learn/neural-networks-deep-learning
     date: '2023-11-25'
     awarder: Coursera
     icon: coursera
     summary: |
-      I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s architecture; and apply deep learning to your own applications.
-  - title: Blockchain Fundamentals
-    url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-    date: '2023-07-01'
-    awarder: edX
-    icon: edx
-    summary: |
-      Learned:
-      - Synthesize your own blockchain solutions
-      - Gain an in-depth understanding of the specific mechanics of Bitcoin
-      - Understand Bitcoin’s real-life applications and learn how to attack and destroy Bitcoin, Ethereum, smart contracts and Dapps, and alternatives to Bitcoin’s Proof-of-Work consensus algorithm
-  - title: 'Object-Oriented Programming in R'
-    url: https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r
-    certificate_url: https://www.datacamp.com
-    date: '2023-01-21'
-    awarder: datacamp
-    icon: datacamp
-    summary: |
-      Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
+      TEST
+
 ---
 ## About Me
 
