@@ -137,7 +137,8 @@ work:
 skills:
   - name: Skills
     items:
-      - name: Computational methods
+      - name: Machine learning methods
+      - name: Computational chemistry methods
         description: ''
         percent: 90
         icon: server
@@ -235,18 +236,23 @@ languages:
   - Name: Croatian
     percent: 25
 
-# Awards.
-#   Add/remove as many awards below as you like.
-#   Only `title`, `awarder`, and `date` are required.
-#   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
+
 awards:
-  - title: TEST
-    url: https://www.coursera.org/learn/neural-networks-deep-learning
-    date: '2023-11-25'
-    awarder: Coursera
-    icon: coursera
-    summary: |
-      TEST
+- title: Best Poster Presentation - Science Communication Category
+  url: http://www.iico.uaslp.mx/semana-iico
+  date: '2018-05-15'
+  awarder: Optical Communications Research Institute XVIII Week
+  icon: award
+  summary: |
+    Awarded first place for the poster presentation "How to measure the (effective) mass of light?" in the Science Communication category.
+
+- title: Second Best Poster Presentation
+  url: https://limsc.nl/
+  date: '2017-03-15'
+  awarder: Leiden International (Bio)Medical Students Conference
+  icon: award
+  summary: |
+    Awarded second place for the poster presentation "Structural and functional characterization of the H+-ATPase of Saccharomyces cerevisiae" at this international conference.
 
 ---
 ## About Me

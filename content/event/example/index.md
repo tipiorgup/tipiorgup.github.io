@@ -1,4 +1,3 @@
-# FAIR-DI Conference presentation
 ---
 title: "IN DEEP: INterdisciplinary DatabasE for Explainable Peptide prediction"
 event: FAIR-DI European Conference on Data Intelligence 2024
@@ -35,10 +34,7 @@ url_slides: ''
 url_video: ''
 slides: ""
 projects: []
----
 
-# AI Tools in Science meetup presentation
----
 title: "AI Tools in Theoretical Biology"
 event: AI Tools in Science meetup at Max Planck Digital Library
 event_url: https://rc.mpip-mainz.mpg.de/?_task=mail&_action=get&_mbox=INBOX&_uid=366&_token=JAv3phSpSw8pVyBkyUFfLuV7oaSIB0KY&_part=2
@@ -73,10 +69,7 @@ url_slides: ''
 url_video: ''
 slides: ""
 projects: []
----
 
-# Macromolecules Workshop presentation
----
 title: "Thiol Disulfide Exchange Reactions Using an Artificial Neural Network Corrected DFTB/MM Methodology"
 event: Hybrid Workshop on Computer Simulation and Theory of Macromolecules
 event_url: https://www.mpinat.mpg.de/workshop/huenfeld
@@ -111,10 +104,7 @@ url_slides: ''
 url_video: ''
 slides: ""
 projects: []
----
 
-# Summer School poster presentation
----
 title: "Studying Disulfide Shuffling with the aid of Machine Learning"
 event: Summer School - Machine Learning in Quantum Physics and Chemistry
 event_url: https://szkoly.idub.uw.edu.pl/
@@ -149,10 +139,7 @@ url_slides: ''
 url_video: ''
 slides: ""
 projects: []
----
 
-# Award-winning poster presentation
----
 title: "How to measure the (effective) mass of light?"
 event: Optical Communications Research Institute XVIII Week - Optics and its application
 event_url: http://www.iico.uaslp.mx/semana-iico
@@ -187,10 +174,7 @@ url_slides: ''
 url_video: ''
 slides: ""
 projects: []
----
 
-# Award-winning poster presentation on H+-ATPase
----
 title: "Structural and functional characterization of the H+-ATPase of Saccharomyces cerevisiae"
 event: Leiden International (Bio)Medical Students Conference
 event_url: https://limsc.nl/
@@ -225,10 +209,7 @@ url_slides: ''
 url_video: ''
 slides: ""
 projects: []
----
 
-# Oral presentation on H+-ATPase
----
 title: "Structural characterization of the H+-ATPase of Saccharomyces cerevisiae"
 event: 28th International Conference on Science and Technology of Complex Fluids
 event_url: https://sites.google.com/prod/view/icstcf2019/main-page
