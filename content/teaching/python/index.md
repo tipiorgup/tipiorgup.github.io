@@ -15,6 +15,14 @@ This tutorial uses an adaptation of the CALVADOS2 model implemented at **[DOI: 1
 
 Click directly into [Google collab link](https://colab.research.google.com/github/tipiorgup/Tutorial_IDP_SAPs/blob/main/Simulation%20code/Simulation.ipynb)
 
+<iframe 
+  src="https://colab.research.google.com/github/tipiorgup/Tutorial_IDP_SAPs/blob/main/Simulation%20code/Simulation.ipynb" 
+  width="100%" 
+  height="800px" 
+  frameborder="0" 
+  allowfullscreen
+></iframe>
+
 ## Folder Structure  
 
 - **Simulation Code**: Contains an interactive Google Colab notebook for simulating both single-peptide assembly and co-assembly.  
