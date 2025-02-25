@@ -7,7 +7,7 @@ math: false
 tags:
   - Workflows
 image:
-  caption: 'Embed rich media such as videos and LaTeX math'
+  caption: 'Workflow for Delta-learning neural network'
 ---
 
 ## Description
