@@ -74,13 +74,24 @@ education:
 work:
   - position: Postdoc Position
     company_name: Max Plank Institute for Polymer Research
-    company_url: ''
+    company_url: 'https://sites.mpip-mainz.mpg.de/synatschke'
     company_logo: ''
     date_start: 2024-03-01
     date_end: 2025-02-28
     summary: |2-
       As a contributor to the SAPs4Tissue project. My work focused on investigating the structural dynamics of self-assembling peptides as intrinsically disordered proteins through coarse-grained simulations while characterizing their functional properties. I implemented machine learning algorithms to optimize peptide sequences and developed an internal database that organizes molecular data to facilitate structure-function relationship studies.
-  
+  - position: Ph.D. thesis
+    company_name: Karlsruhe Institute of Technology
+    company_url: 'https://www.ipc.kit.edu/tcb/'
+    company_logo: ''
+    date_start: 2019-05-01
+    date_end: 2022-10-31
+    summary: |
+      - Research Training Group 2450: "Tailored Scale-Bridging Approaches to Computational Nanoscience"
+      - Implementation of neural network architectures to fit long-range and short-range energy interactions in protein disulfide exchange reactions for QM/MM simulations
+      - Comparative analysis of energy potentials between ab initio and semi-empirical methods
+      - Incorporation of data analysis, machine learning, and computational chemistry software workflows into an interactive Graphical User Interface, enhancing accessibility and usability of computational tools for non-expert users
+
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 skills:
