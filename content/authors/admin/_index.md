@@ -78,8 +78,11 @@ work:
     company_logo: ''
     date_start: 2024-03-01
     date_end: 2025-02-28
-    summary: |2-
-      As a contributor to the SAPs4Tissue project. My work focused on investigating the structural dynamics of self-assembling peptides as intrinsically disordered proteins through coarse-grained simulations while characterizing their functional properties. I implemented machine learning algorithms to optimize peptide sequences and developed an internal database that organizes molecular data to facilitate structure-function relationship studies.
+    summary: |
+      - Project "SAPs4Tissue: Self-assembling bioactive peptides for the biomimetic design of functional cell niches in human tissue models"
+      - Research on self-assembling peptides as intrinsically disordered proteins, investigating their structural dynamics through coarse-grained simulations and functional properties
+      - Implementation of machine learning algorithms for optimizing peptide sequences
+      - Developed and maintained an internal peptide database, organizing molecular data to facilitate structure-function relationship studies
   - position: Ph.D. thesis
     company_name: Karlsruhe Institute of Technology
     company_url: 'https://www.ipc.kit.edu/tcb/'
@@ -91,36 +94,132 @@ work:
       - Implementation of neural network architectures to fit long-range and short-range energy interactions in protein disulfide exchange reactions for QM/MM simulations
       - Comparative analysis of energy potentials between ab initio and semi-empirical methods
       - Incorporation of data analysis, machine learning, and computational chemistry software workflows into an interactive Graphical User Interface, enhancing accessibility and usability of computational tools for non-expert users
+  - position: M.Sc. thesis
+    company_name: Universidad Autónoma de San Luis Potosí
+    company_url: 'https://www.ifisica.uaslp.mx/index.php/investigacion/laboratorios/biofisica-de-proteinas'
+    company_logo: ''
+    date_start: 2017-08-01
+    date_end: 2019-02-28
+    summary: |
+      - Performed full-atomistic MD simulations and molecular docking to identify and characterize ion and nucleotide binding sites in the N-domain of membrane H⁺-ATPase from Saccharomyces cerevisiae
+      - Conducted functional and structural analysis using circular dichroism, absorbance and fluorescence spectroscopy
+  - position: Internship
+    company_name: Universidad Autónoma de San Luis Potosí
+    company_url: 'http://www.iico.uaslp.mx/Paginas/Edgar-Armando.aspx'
+    company_logo: ''
+    date_start: 2018-02-01
+    date_end: 2018-10-31
+    summary: |
+      - Optical arrangement assembly for microcavities characterization at cryogenic temperatures
+      - Reflectance, photoreflectance and photoluminescence measurement at different microcavities on real and reciprocal space
+  - position: Internship
+    company_name: Universidad Autónoma de San Luis Potosí
+    company_url: 'https://byanez.wixsite.com/bernardo-yanez'
+    company_logo: ''
+    date_start: 2017-05-01
+    date_end: 2017-08-31
+    summary: |
+      - Characterization of glass surfaces by silanization and ionic coating
+      - Measurement of dynamic contact angles between liquid interfaces over the characterized surfaces
+  - position: B.Sc. thesis
+    company_name: Universidad Autónoma de San Luis Potosí
+    company_url: 'https://www.ifisica.uaslp.mx/index.php/investigacion/laboratorios/biofisica-de-proteinas'
+    company_logo: ''
+    date_start: 2016-06-01
+    date_end: 2017-02-28
+    summary: |
+      - Expression and purification of the recombinant N-domain of the H⁺-ATPase of S. cerevisiae
+      - Steady-state fluorescence experiments for determining the position of nucleotide binding sites
+
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 skills:
-  - name: Technical Skills
+  - name: Skills
     items:
-      - name: Python
+      - name: Computational methods
         description: ''
-        percent: 80
-        icon: code-bracket
-      - name: Data Science
+        percent: 90
+        icon: server
+        items:
+          - name: Quantum chemical calculations
+            description: ''
+            percent: 85
+            icon: atom
+          - name: Full-atom molecular dynamics
+            description: ''
+            percent: 85
+            icon: code-bracket
+          - name: Coarse grained modelling
+            description: ''
+            percent: 80
+            icon: cube
+          - name: Molecular Docking
+            description: ''
+            percent: 80
+            icon: link
+          - name: QM/MM
+            description: ''
+            percent: 85
+            icon: variable
+          - name: Scientific GUI development
+            description: ''
+            percent: 75
+            icon: computer-desktop
+          - name: Workflows and data analysis pipelines
+            description: ''
+            percent: 80
+            icon: arrow-path
+          - name: Data visualization
+            description: ''
+            percent: 85
+            icon: chart-bar
+          - name: High Performance Computing
+            description: ''
+            percent: 80
+            icon: server-stack
+
+      - name: Experimental methods
         description: ''
-        percent: 80
-        icon: chart-bar
-      - name: Bash script 
-        description: ''
-        percent: 80
-        icon: circle-stack
+        percent: 85
+        icon: beaker
+        items:
+          - name: Protein expression
+            description: ''
+            percent: 80
+            icon: beaker
+          - name: Protein purification
+            description: ''
+            percent: 80
+            icon: funnel
+          - name: Circular dichroism
+            description: ''
+            percent: 75
+            icon: chart-line
+          - name: Fluorescence spectroscopy
+            description: ''
+            percent: 80
+            icon: light-bulb
+          - name: Absorbance spectroscopy
+            description: ''
+            percent: 80
+            icon: variable
+          - name: Optical setups
+            description: ''
+            percent: 75
+            icon: eye
   - name: Hobbies
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
-      - name: World building, writing 
+      - name: World building, writing
         description: ''
         percent: 60
-        icon: person-simple-walk
-      - name: Painting 
+        icon: pencil-square  # or book-open, document-text, pencil
+      - name: Painting
         description: ''
         percent: 80
-        icon: camera
+        icon: paint-brush  # or color-swatch, palette, easel
 
 languages:
   - name: English
