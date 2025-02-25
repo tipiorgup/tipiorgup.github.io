@@ -1,4 +1,3 @@
-# First publication (Physical Chemistry Chemical Physics)
 ---
 title: "Electrostatic interactions contribute to the control of intramolecular thiol–disulfide isomerization in a protein"
 authors:
@@ -26,11 +25,7 @@ abstract: "The roles of structural factors and of electrostatic interactions wit
 # Summary. An optional shortened abstract
 summary: "Investigation of structural factors and electrostatic interactions that influence thiol–disulfide exchange reactions in proteins using QM/MM simulations."
 tags:
-- QM/MM
 - Thiol-disulfide exchange
-- Protein chemistry
-- Molecular dynamics
-- Electrostatic interactions
 featured: true
 url_pdf: 'https://xlink.rsc.org/?DOI=D1CP03129E'
 url_code: ''
@@ -47,10 +42,7 @@ image:
   preview_only: false
 projects: []
 slides: ""
----
 
-# Second publication (Journal of Chemical Theory and Computation)
----
 title: "Accurate Free Energies for Complex Condensed-Phase Reactions Using an Artificial Neural Network Corrected DFTB/MM Methodology"
 authors:
 - admin
@@ -81,11 +73,8 @@ abstract: "This paper presents a methodology combining density functional tight 
 # Summary. An optional shortened abstract
 summary: "Development of an artificial neural network corrected DFTB/MM methodology for accurate calculation of free energies in complex condensed-phase reactions."
 tags:
-- DFTB/MM
 - Artificial Neural Networks
-- Free Energy Calculations
-- Computational Chemistry
-- Condensed-Phase Reactions
+
 featured: true
 url_pdf: 'https://pubs.acs.org/doi/10.1021/acs.jctc.1c00811'
 url_code: ''
@@ -102,4 +91,3 @@ image:
   preview_only: false
 projects: []
 slides: ""
----
