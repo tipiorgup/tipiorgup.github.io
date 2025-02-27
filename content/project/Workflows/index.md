@@ -1,7 +1,7 @@
 ---
 title: DFTB-Neural-Net
 summary: This workflow developed in the SimStack framework enables the correction of DFTB potential energy surfaces into ab-initio methods using the Delta-learning neural network. 
-date: 2023-10-24
+date: 2025-02-27
 type: docs
 math: false
 tags:
