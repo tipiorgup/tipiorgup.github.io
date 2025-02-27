@@ -20,9 +20,7 @@ publishDate: '2024-02-25T00:00:00Z'
 authors:
   - admin
 tags:
-  - Peptides
   - Database
-  - Machine Learning
 # Is this a featured talk?
 featured: true
 image:

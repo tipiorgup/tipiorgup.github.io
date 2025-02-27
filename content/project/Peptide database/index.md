@@ -12,7 +12,7 @@ image:
 
 ## Description
 
-This database compiles, in a user-friendly manner, the self-assembling database from **[Data-mining unveils structure–property–activity correlation of viral infectivity enhancing self-assembling peptides](https://www.nature.com/articles/s41467-023-40663-6)** and correlates experimental data with IDPP MD simulations.
+This database compiles, in a user-friendly manner, the self-assembling peptides database from **[Data-mining unveils structure–property–activity correlation of viral infectivity enhancing self-assembling peptides](https://www.nature.com/articles/s41467-023-40663-6)** and correlates experimental data with IDPP MD simulations.
 
 Access the database directly via the [site link](https://indeepold.streamlit.app/).
 

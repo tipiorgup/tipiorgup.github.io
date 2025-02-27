@@ -35,40 +35,7 @@ url_video: ''
 slides: ""
 projects: []
 
-title: "AI Tools in Theoretical Biology"
-event: AI Tools in Science meetup at Max Planck Digital Library
-event_url: https://rc.mpip-mainz.mpg.de/?_task=mail&_action=get&_mbox=INBOX&_uid=366&_token=JAv3phSpSw8pVyBkyUFfLuV7oaSIB0KY&_part=2
-location: Munich, Germany
-address:
-  street: ''
-  city: Munich
-  region: ''
-  postcode: ''
-  country: Germany
-summary: Presentation on artificial intelligence applications in theoretical biology research.
-abstract: ''
-# Talk start and end times
-date: '2024-06-15T13:00:00Z'  # Placeholder for exact date in June 2024
-date_end: '2024-06-15T14:00:00Z'  # Placeholder
-all_day: false
-# Schedule page publish date
-publishDate: '2024-02-25T00:00:00Z'
-authors:
-  - admin
-tags:
-  - AI
-  - Theoretical Biology
-  - Machine Learning
-featured: false
-image:
-  caption: ''
-  focal_point: Center
-url_code: ''
-url_pdf: ''
-url_slides: ''
-url_video: ''
-slides: ""
-projects: []
+
 
 title: "Thiol Disulfide Exchange Reactions Using an Artificial Neural Network Corrected DFTB/MM Methodology"
 event: Hybrid Workshop on Computer Simulation and Theory of Macromolecules
