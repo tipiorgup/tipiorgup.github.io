@@ -1,86 +1,85 @@
 ---
-title: 🎉 Easily create your own simple yet highly customizable blog
-summary: Take full control of your personal brand and privacy by migrating away from the big tech platforms!
-date: 2023-10-27
+title: 🍼 Maternity Leave 
+summary: Reflections on balancing motherhood, skill development, and academia while raising a multilingual child
+date: 2023-12-15
 
 # Featured image
 # Place an image named `featured.jpg/png` in this page's folder and customize its options here.
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
+  caption: ''
 
 authors:
   - admin
-  - Ted
 
 tags:
-  - Academic
-  - Hugo Blox
-  - Markdown
+  - Motherhood
+
 ---
 
-Welcome 👋
 
 {{< toc mobile_only=true is_open=true >}}
 
-## Overview
+## My Maternity Leave 
 
-1. The Hugo Blox website builder for Hugo, along with its starter templates, is designed for professional creators, educators, and teams/organizations - although it can be used to create any kind of site
-2. The template can be modified and customised to suit your needs. It's a good platform for anyone looking to take control of their data and online identity whilst having the convenience to start off with a **no-code solution (write in Markdown and customize with YAML parameters)** and having **flexibility to later add even deeper personalization with HTML and CSS**
-3. You can work with all your favourite tools and apps with hundreds of plugins and integrations to speed up your workflows, interact with your readers, and much more
+In 2023, I took a full year for maternity leave. What initially seemed like stepping away from my professional life turned into a period of growth and skill development that I could not have anticipated.
 
-[//]: # ([![The template is mobile first with a responsive design to ensure that your site looks stunning on every device.]&#40;https://raw.githubusercontent.com/wowchemy/wowchemy-hugo-modules/main/starters/academic/preview.png&#41;]&#40;https://hugoblox.com&#41;)
+### Time Management Mastery
 
-### Get Started
+When you're caring for a child, time becomes both elastic and precious. I quickly learned that:
 
-- 👉 [**Create a new site**](https://hugoblox.com/templates/)
-- 📚 [**Personalize your site**](https://docs.hugoblox.com/)
-- 💬 [Chat with the **Hugo Blox community**](https://discord.gg/z8wNYzb) or [**Hugo community**](https://discourse.gohugo.io)
-- 🐦 Twitter: [@GetResearchDev](https://twitter.com/GetResearchDev) [@GeorgeCushen](https://twitter.com/GeorgeCushen) #MadeWithHugoBlox
-- 💡 [Request a **feature** or report a **bug** for _Hugo Blox_](https://github.com/HugoBlox/hugo-blox-builder/issues)
-- ⬆️ **Updating Hugo Blox?** View the [Update Guide](https://docs.hugoblox.com/reference/update/) and [Release Notes](https://github.com/HugoBlox/hugo-blox-builder/releases)
+1. The traditional schedule becomes obsolete
+2. Working in focused 20-30 minute bursts during nap times can be surprisingly productive
 
-## Crowd-funded open-source software
+These challenges pushed me to develop time management techniques that I never would have discovered otherwise, creating systems that maximized efficiency in ways I hadn't imagined possible before motherhood.
 
-To help us develop this template and software sustainably under the MIT license, we ask all individuals and businesses that use it to help support its ongoing maintenance and development via sponsorship.
+## The Unexpected IDE Adventure
 
-### [❤️ Click here to become a sponsor and help support Hugo Blox's future ❤️](https://hugoblox.com/sponsor/)
+While my baby slept on my chest, I found myself adapting to the strangest "Integrated Development Environments" imaginable:
 
-As a token of appreciation for sponsoring, you can **unlock [these](https://hugoblox.com/sponsor/) awesome rewards and extra features 🦄✨**
+- Coding one-handed on a tablet
+- Voice dictating documentation
+- Learning to navigate new development tools that worked better on mobile devices
 
-## Ecosystem
+This constraint-driven innovation not only forced me to adapt to suboptimal hardware options but also inspired me to pursue more user-friendly systems and workflows. 
 
-- **[Bibtex To Markdown](https://github.com/GetRD/academic-file-converter):** Automatically import publications from BibTeX
 
-## Inspiration
+### Child Learning and Machine Learning
 
-[Learn what other **creators**](https://hugoblox.com/creators/) are building with this template.
+As both a mother and researcher, I've been fascinated by the parallels between my child's language acquisition process and concepts in machine learning:
 
-## Features
+#### One-Shot Learning Marvels
 
-- **Page builder** - Create _anything_ with no-code [**blocks**](https://hugoblox.com/blocks/) and [**elements**](https://docs.hugoblox.com/reference/markdown/)
-- **Edit any type of content** - Blog posts, publications, talks, slides, projects, and more!
-- **Create content** in [**Markdown**](https://docs.hugoblox.com/reference/markdown/), [**Jupyter**](https://docs.hugoblox.com/getting-started/cms/), or [**RStudio**](https://docs.hugoblox.com/getting-started/cms/)
-- **Plugin System** - Fully customizable [**color** and **font themes**](https://docs.hugoblox.com/getting-started/customize/)
-- **Display Code and Math** - Code syntax highlighting and LaTeX math supported
-- **Integrations** - [Google Analytics](https://analytics.google.com), [Disqus commenting](https://disqus.com), Maps, Contact Forms, and more!
-- **Beautiful Site** - Simple and refreshing one-page design
-- **Industry-Leading SEO** - Help get your website found on search engines and social media
-- **Media Galleries** - Display your images and videos with captions in a customizable gallery
-- **Mobile Friendly** - Look amazing on every screen with a mobile friendly version of your site
-- **Multi-language** - 35+ language packs including English, 中文, and Português
-- **Multi-user** - Each author gets their own profile page
-- **Privacy Pack** - Assists with GDPR
-- **Stand Out** - Bring your site to life with animation, parallax backgrounds, and scroll effects
-- **One-Click Deployment** - No servers. No databases. Only files.
+Witnessing my child learn new words after just a single exposure has given me a profound appreciation for the concept of "one-shot learning" in machine learning. While our sophisticated ML models often require thousands of examples to recognize a pattern, my toddler can:
 
-## Themes
+- Identify a new animal after seeing it once in a picture book
+- Correctly apply a new word in multiple contexts after hearing it in just one situation
+- Transfer knowledge from one domain to another with minimal guidance
 
-Hugo Blox and its templates come with **automatic day (light) and night (dark) mode** built-in. Visitors can choose their preferred mode by clicking the sun/moon icon in the header.
+This natural cognitive efficiency has inspired me to explore more efficient training methods in my research, questioning our assumptions about how much data is truly necessary for effective learning.
 
-[Choose a stunning **theme** and **font**](https://docs.hugoblox.com/getting-started/customize/) for your site. Themes are fully customizable.
+#### Multi-Feature Entry for Single Labels
 
-## License
+The way children process multilingual inputs has fascinating connections to how we handle multi-feature entry for single label classification in ML systems:
 
-Copyright 2016-present [George Cushen](https://georgecushen.com).
+- My child seamlessly associates multiple linguistic representations (words from different languages) with a single concept
+- They navigate context-switching between languages based on subtle environmental cues
+- They develop intuitive feature selection, knowing which language features are relevant in which situations
 
-Released under the [MIT](https://github.com/HugoBlox/hugo-blox-builder/blob/main/LICENSE.md) license.
+These observations have influenced my approach to feature engineering and model architecture in my research, particularly in how we handle multi-modal inputs and context-dependent classification tasks.
+
+#### Transfer Learning in Real Time
+
+Perhaps most remarkably, I've witnessed transfer learning happening in real time:
+
+- Grammar patterns learned in one language being tested (sometimes correctly, sometimes humorously) in another
+- Conceptual understanding from one domain being applied to solve problems in entirely different contexts
+- The natural pruning and reinforcement of neural pathways as certain approaches succeed or fail
+
+These observations have provided valuable intuition for my research on transfer learning mechanisms and adaptive learning systems.
+
+
+## Looking Forward
+
+This period of maternity leave wasn't just a pause in my career—it was a profound redirection and enrichment. The skills I've developed, from advanced time management to adaptability in challenging circumstances, have made me more effective in academia and beyond. You cannot just fool around.
+
+As I continue balancing academic life with motherhood, I'm excited to bring these new perspectives into my research and teaching, creating a more integrated approach to both my professional and personal life.

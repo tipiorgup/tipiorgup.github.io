@@ -261,7 +261,7 @@ awards:
   summary: |
     Awarded second place for the poster presentation "Structural and functional characterization of the H+-ATPase of Saccharomyces cerevisiae" at this international conference.
 
-- title: Second place at the 21st Metropolitan Physics Olympiad
+- title: Second Place at the 21st Metropolitan Physics Olympiad
   date: '2011-11-07'
   awarder: Mexican Society of Physics (Sociedad Mexicana de Física)
   icon: award
@@ -274,7 +274,7 @@ awards:
   icon: award
   summary: |
     Awarded third place in the Didactic Apparatus category at the 1st Metropolitan Competition of Physics Apparatus and Experiments.
-    
+
 ---
 ## About Me
 
