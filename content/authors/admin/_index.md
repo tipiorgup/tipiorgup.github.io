@@ -47,7 +47,7 @@ interests:
 
 education:
   - area: PhD Natural Sciences
-    institution: Karlsruhe Institute of Technology
+    institution: Karlsruhe Institute of Technology, Germany
     date_start: 2019-05-01
     date_end: 2022-07-14
     summary: |
@@ -56,7 +56,7 @@ education:
       text: 'Read Thesis'
       url: 'https://publikationen.bibliothek.kit.edu/1000150422'
   - area: MSc Interdisciplinary Sciences
-    institution: Universidad Autonoma de San Luis Potosi
+    institution: Universidad Autonoma de San Luis Potosi, Mexico
     date_start: 2017-02-01
     date_end: 2019-02-01
     summary: |
@@ -66,11 +66,18 @@ education:
       url: 'http://repositorioinstitucional.uaslp.mx/xmlui/handle/i/5769'
 
   - area: BSc Biophysics
-    institution: Universidad Autonoma de San Luis Potosi
+    institution: Universidad Autonoma de San Luis Potosi, Mexico
     date_start: 2013-01-01
     date_end: 2017-02-01
     summary: |
-        Thesis title 'Caracterización estructural del dominio-N de la H+-ATPasa de membrana plasmática de Saccharomyces cerevisiae'
+        Thesis title 'Caracterización estructural y funcional del dominio-N de la H+-ATPasa de membrana plasmática de Saccharomyces cerevisiae'
+
+  - area: Diploma in Automation and Industrial Electrical Control
+    institution: Instituto Politécnico Nacional, Mexico
+    date_start: 2010-06-01
+    date_end: 2011-06-23
+    summary: |
+
 work:
   - position: Postdoc Position
     company_name: Max Plank Institute for Polymer Research
@@ -254,6 +261,20 @@ awards:
   summary: |
     Awarded second place for the poster presentation "Structural and functional characterization of the H+-ATPase of Saccharomyces cerevisiae" at this international conference.
 
+- title: Second place at the 21st Metropolitan Physics Olympiad
+  date: '2011-11-07'
+  awarder: Mexican Society of Physics (Sociedad Mexicana de Física)
+  icon: award
+  summary: |
+    Awarded second place at the 21st Metropolitan Physics Olympiad in Mexico City.
+
+- title: Third Place at the 1st Metropolitan Competition of Physics Apparatus and Experiments
+  date: '2010-09-03'
+  awarder: Mexican Society of Physics (Sociedad Mexicana de Física)
+  icon: award
+  summary: |
+    Awarded third place in the Didactic Apparatus category at the 1st Metropolitan Competition of Physics Apparatus and Experiments.
+    
 ---
 ## About Me
 
