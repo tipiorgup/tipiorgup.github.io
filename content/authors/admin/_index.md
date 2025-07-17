@@ -144,11 +144,13 @@ work:
 skills:
   - name: Skills
     items:
-      - name: Machine learning methods
-      - name: Computational chemistry methods
+      - name: Machine learning 
+      - name: Computational chemistry 
+      - name: Protein purificatiom
+      - name: Optical setups 
         description: ''
         percent: 90
-        icon: server
+        icon: 
         items:
           - name: Quantum chemical calculations
             description: ''
@@ -187,35 +189,7 @@ skills:
             percent: 80
             icon: server-stack
 
-      - name: Experimental methods
-        description: ''
-        percent: 85
-        icon: beaker
-        items:
-          - name: Protein expression
-            description: ''
-            percent: 80
-            icon: beaker
-          - name: Protein purification
-            description: ''
-            percent: 80
-            icon: funnel
-          - name: Circular dichroism
-            description: ''
-            percent: 75
-            icon: chart-line
-          - name: Fluorescence spectroscopy
-            description: ''
-            percent: 80
-            icon: light-bulb
-          - name: Absorbance spectroscopy
-            description: ''
-            percent: 80
-            icon: variable
-          - name: Optical setups
-            description: ''
-            percent: 75
-            icon: eye
+      
   - name: Hobbies
     color: '#eeac02'
     color_border: '#f0bf23'
