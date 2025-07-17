@@ -1,5 +1,5 @@
 ---
-title: Talks and posters
+title: Talks 
 cms_exclude: true
 #url: talk
 

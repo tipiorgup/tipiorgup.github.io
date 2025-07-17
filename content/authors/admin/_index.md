@@ -20,11 +20,11 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Postdoc at ERC Research Group
+role: Postdoc at MPI Stuttgart
 
 # Organizations/Affiliations to display in Biography blox
 organizations: 
-  - name:  MPI Stuttgart ERC Research Group
+  - name: ERC Research Group
     url: https://anggara.science/
 
 # Social network links
