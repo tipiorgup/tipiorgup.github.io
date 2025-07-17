@@ -1,3 +1,3 @@
-# [Hugo Academic CV Theme](https://github.com/HugoBlox/theme-academic-cv)
+# [My personal site](https://tipiorgup.github.io/)
 
 [![Screenshot](.github/preview.webp)](https://tipiorgup.github.io/)
