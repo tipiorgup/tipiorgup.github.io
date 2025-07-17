@@ -23,8 +23,8 @@ highlight_name: true
 role: Postdoc at ERC Research Group
 
 # Organizations/Affiliations to display in Biography blox
-organizations: MPI Stuttgart
-  - name:  ERC Research Group
+organizations: 
+  - name:  MPI Stuttgart ERC Research Group
     url: https://anggara.science/
 
 # Social network links
