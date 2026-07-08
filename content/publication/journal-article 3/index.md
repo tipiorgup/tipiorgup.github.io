@@ -6,7 +6,7 @@ authors:
 author_notes:
 - "First author"
 - "Corresponding author"
-date: "2022-06-26T00:00:00Z"  # Exact date specified in BibTeX
+date: "2026-06-26T00:00:00Z"  # Exact date specified in BibTeX
 doi: "https://doi.org/10.1002/cphc.202500713"
 # Publication type
 publication_types: ["article-journal"]
