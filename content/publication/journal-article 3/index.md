@@ -12,7 +12,8 @@ doi: "https://doi.org/10.1002/cphc.202500713"
 publication_types: ["article-journal"]
 # Publication name and optional abbreviated publication name
 publication: "ChemPhysChem"
-abstract: "This paper identifies possible calcium binding sites in the N-domain of the H+-ATPase From Saccharomyces cerevisiae"
+abstract: "In this work, several calcium-binding sites were suggested in the nucleotide-binding domain (N-domain) through three-dimensional (3D) structural analysis and molecular dynamics simulation (MDS). The calcium-binding sites consisted mainly of Asp and Glu residues that displayed bidentate coordination geometry. Calcium binding was confirmed in vitro through intrinsic fluorescence quenching of a recombinant N-domain protein and energy-transfer-sensitized Tb3+ luminescence. The calcium ion binds to the H+-ATPase N-domain and is likely directly involved in modulating enzyme activity."
+summary: "Identification of possible calcium binding sites in the N-domain of the H+-ATPase From Saccharomyces cerevisiae"
 tags:
 - ATPases
 - Calcium binding site 
