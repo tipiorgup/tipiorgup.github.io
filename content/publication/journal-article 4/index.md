@@ -6,7 +6,7 @@ authors:
 author_notes:
 - "First author"
 - "Corresponding author"
-date: "2026-06-26T00:00:00Z"  # Exact date specified in BibTeX
+date: "2026-08-03T00:00:00Z"  # Exact date specified in BibTeX
 doi: "https://doi.org/10.1021/acs.jcim.6c01134"
 # Publication type
 publication_types: ["article-journal"]
@@ -19,7 +19,7 @@ tags:
 - STM 
 
 featured: true
-url_pdf: 'https://pubs.acs.org/jcisd8/article/66/16/10056/5238701/Automating-Model-Building-for-SPM-Images-of'
+url_pdf: 'https://pubs.acs.org/jcisd8/article-pdf/66/16/10056/66361860/acs.jcim.6c01134.pdf'
 url_code: ''
 url_dataset: ''
 url_poster: ''
