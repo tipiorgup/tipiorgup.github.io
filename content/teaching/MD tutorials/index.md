@@ -24,6 +24,8 @@ The same system (hen egg-white lysozyme, PDB **1AKI**) is simulated with two pla
 - **GROMACS**: the original workflow, driven from Python with GromacsWrapper.
 - **OpenMM**: the same workflow written in pure Python, which I find has a gentler learning curve if you already know Python.
 
+Find the application at: **[Basic MD](https://basicmd.streamlit.app/)**
+
 Find the notebooks on GitHub: **[tipiorgup/MDtutorials](https://github.com/tipiorgup/MDtutorials/tree/main)**
 
 ## Workflow
