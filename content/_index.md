@@ -38,6 +38,19 @@ sections:
         Throughout my research career, I've worked at the intersection of computational chemistry, biophysics, and machine learning to advance our understanding of biomolecular systems. Beginning with structural studies of a H⁺-ATPase, I've progressively developed more sophisticated computational approaches, including neural network-enhanced QM/MM simulations for protein disulfide exchange reactions and coarse-grained modeling of self-assembling peptides. My work consistently bridges theoretical and experimental methodologies, applying machine learning to optimize molecular simulations, predict protein behaviors, and develop databases that facilitate structure-function relationship studies. I'm particularly passionate about method and software development, which has become my favorite aspect of research. Looking forward, I aim to continue working with proteins, developing innovative computational tools that can accelerate discovery and provide deeper insights into protein structure-function relationships.
     design:
       columns: '1'
+  - block: markdown
+    id: interview
+    content:
+      title: 'Get to know me'
+      subtitle: ''
+      text: |-
+        A short interview where I talk about my path in science and what drives my work.
+
+        <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;border-radius:0.5rem;">
+          <iframe src="https://www.youtube-nocookie.com/embed/kukMqDDOHqs" title="Short interview with Claudia Leticia Gomez Flores" style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy"></iframe>
+        </div>
+    design:
+      columns: '1'
   - block: collection
     id: papers
     content:
