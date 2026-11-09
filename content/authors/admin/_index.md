@@ -46,12 +46,12 @@ interests:
   - Structural biology
 
 education:
-  - area: PhD Natural Sciences
+  - area: PhD Natural Sciences, magna cum laude
     institution: Karlsruhe Institute of Technology, Germany
     date_start: 2019-05-01
     date_end: 2022-07-14
     summary: |
-      Thesis title 'Machine Learning methodology for the study of a disulfide exchange reaction'
+      Specialization: Physical Chemistry. Thesis title 'Machine Learning methodology for the study of a disulfide exchange reaction'
     button:
       text: 'Read Thesis'
       url: 'https://publikationen.bibliothek.kit.edu/1000150422'
@@ -60,7 +60,7 @@ education:
     date_start: 2017-02-01
     date_end: 2019-02-01
     summary: |
-      Thesis title 'Caracterización termodinámica del dominio-N de la H+-ATPasa de membrana plasmática de Saccharomyces cerevisiae'
+      Specialization: Biochemistry. Thesis title 'Caracterización termodinámica del dominio-N de la H+-ATPasa de membrana plasmática de Saccharomyces cerevisiae'
     button:
       text: 'Read Thesis'
       url: 'http://repositorioinstitucional.uaslp.mx/xmlui/handle/i/5769'
@@ -68,9 +68,9 @@ education:
   - area: BSc Biophysics
     institution: Universidad Autonoma de San Luis Potosi, Mexico
     date_start: 2013-01-01
-    date_end: 2017-02-01
+    date_end: 2016-12-01
     summary: |
-        Thesis title 'Caracterización estructural y funcional del dominio-N de la H+-ATPasa de membrana plasmática de Saccharomyces cerevisiae'
+      Earlier: BSc Physics, UNAM (2011 to 2012). Thesis title 'Caracterización estructural y funcional del dominio-N de la H+-ATPasa de membrana plasmática de Saccharomyces cerevisiae'
 
   - area: Diploma in Automation and Industrial Electrical Control
     institution: Instituto Politécnico Nacional, Mexico
@@ -80,16 +80,29 @@ education:
 
 work:
   - position: Postdoc Position
-    company_name: Max Plank Institute for Polymer Research
+    company_name: Max Planck Institute for Solid State Research (Anggara Group)
+    company_url: 'https://anggara.science/'
+    company_logo: ''
+    date_start: 2025-07-01
+    summary: |
+      - Project "Virgil: Model Building for SPM Images of Macro(bio)molecules": GUI based workflows for fitting biomolecular models of SPM images
+      - First author of MISO, a public tool that automates 3D model building from user hypotheses: quaternion based orientation search with geometric and steric scoring, followed by biased force field MD relaxation. Scales from 89 atom glycopeptides to a 2042 atom glycoprotein
+      - Unpublished extensions: coarse grained modelling and LLM assisted input generation
+      - Developing a machine learning surrogate for fast STM simulation
+  - position: Postdoc Position
+    company_name: Max Planck Institute for Polymer Research
     company_url: 'https://sites.mpip-mainz.mpg.de/synatschke'
     company_logo: ''
     date_start: 2024-03-01
-    date_end: 2025-02-28
+    date_end: 2025-03-31
     summary: |
-      - Project "SAPs4Tissue: Self-assembling bioactive peptides for the biomimetic design of functional cell niches in human tissue models"
-      - Research on self-assembling peptides as intrinsically disordered proteins, investigating their structural dynamics through coarse-grained simulations and functional properties
-      - Implementation of machine learning algorithms for optimizing peptide sequences
-      - Developed and maintained an internal peptide database, organizing molecular data to facilitate structure-function relationship studies
+      - Project "SAPs4Tissue: Self assembling bioactive peptides for the biomimetic design of functional cell niches in human tissue models"
+      - Studied self assembling peptides as intrinsically disordered peptides through coarse grained simulations
+      - Used regression models linking sequence and simulation features to experimental aggregation and enhancement of viral infectivity, on a low data regime of 163 known sequences with unnormalized data
+      - Benchmarked ProtVec and ProtT5 embeddings for short peptides without PDB background, characterized their limits and augmented them with simulation derived geometry and assembly descriptors
+      - Screened coassembly in silico to propose new sequence pairs, handed over to experimental collaborators for testing
+      - Developed and maintained an internal peptide database linking sequences, simulation observables and prioritized coassembly pairs, bridging computation and wet lab work
+      - Teaching tasks: "Theoretical Statistical Physics" at Heidelberg University
   - position: Ph.D. thesis
     company_name: Karlsruhe Institute of Technology
     company_url: 'https://www.ipc.kit.edu/tcb/'
@@ -97,10 +110,12 @@ work:
     date_start: 2019-05-01
     date_end: 2022-10-31
     summary: |
-      - Research Training Group 2450: "Tailored Scale-Bridging Approaches to Computational Nanoscience"
-      - Implementation of neural network architectures to fit long-range and short-range energy interactions in protein disulfide exchange reactions for QM/MM simulations
-      - Comparative analysis of energy potentials between ab initio and semi-empirical methods
-      - Incorporation of data analysis, machine learning, and computational chemistry software workflows into an interactive Graphical User Interface, enhancing accessibility and usability of computational tools for non-expert users
+      - Research Training Group 2450: "Tailored Scale Bridging Approaches to Computational Nanoscience"
+      - Neural network delta correction implemented in DFTB+, with genetic algorithm descriptor optimization, trained on about 10K unique structures. Corrects DFTB/MM to B3LYP and CCSD(T) level at 3 to 4 orders of magnitude lower cost
+      - Model transferability to bigger and solvated model systems
+      - QM/MM study of thiol disulfide exchange in an immunoglobulin domain under mechanical stress using multiple walker metadynamics
+      - Integrated data analysis, machine learning and computational chemistry workflows into an interactive GUI for non expert users
+      - Teaching tasks: "Physical Chemistry Laboratory for Beginners" and "Machine Learning for Chemists" at Karlsruhe Institute of Technology
   - position: M.Sc. thesis
     company_name: Universidad Autónoma de San Luis Potosí
     company_url: 'https://www.ifisica.uaslp.mx/index.php/investigacion/laboratorios/biofisica-de-proteinas'
@@ -108,8 +123,8 @@ work:
     date_start: 2017-08-01
     date_end: 2019-02-28
     summary: |
-      - Performed full-atomistic MD simulations and molecular docking to identify and characterize ion and nucleotide binding sites in the N-domain of membrane H⁺-ATPase from Saccharomyces cerevisiae
-      - Conducted functional and structural analysis using circular dichroism, absorbance and fluorescence spectroscopy
+      - Performed full atomistic MD simulations and molecular docking to identify and characterize ion and nucleotide binding sites in the N domain of membrane H⁺ATPase from Saccharomyces cerevisiae
+      - Conducted functional and structural analysis using circular dichroism, absorbance and fluorescence spectroscopy, including intrinsic fluorescence quenching and terbium luminescence
   - position: Internship
     company_name: Universidad Autónoma de San Luis Potosí
     company_url: 'http://www.iico.uaslp.mx/Paginas/Edgar-Armando.aspx'
